@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jsbuttona</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+button.frame = CGRectMake(100, 100, 100, 100) ;
+[button addTarget:self action:@selector(nextPage) forControlEvents:UIControlEventTouchUpInside];
+
+[self.view addSubview:button];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>47B62B87-8321-42DB-9CFC-89CFE3E5797F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>jsbuttona</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
